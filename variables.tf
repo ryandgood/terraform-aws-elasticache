@@ -150,6 +150,7 @@ variable "availability_zones" {
 
 variable "multi_az_enabled" {
   type        = bool
+  default     = false
   description = "Specify if multi-AZ should be enabled for this Redis instance."
 }
 
